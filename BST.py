@@ -1,5 +1,4 @@
-#def f(n): return n if n<2 else f(n-1)+f(n-2)
-#print f(25)
+# A simple Binary Search Tree implemented in python. Constituent nodes are associative, i.e., they contain a key and value pair.
 
 #binary seach tree
 class BST:
@@ -31,13 +30,13 @@ class BST:
         x.SubrootNodes = self.size(x.left) + self.size(x.right) + 1
         return x
     
-    def doit(self):
+    def test(self):
         Root = self.Node(1,"Hello",1)
         print "Putting into parent: " + str(self.put(Root,10,"Hola").key)
         print self.get(Root,10)
 
 myBST = BST()
-myBST.doit()
+myBST.test()
 
 
 

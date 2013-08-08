@@ -1,4 +1,5 @@
-# A simple Binary Search Tree implemented in python. Constituent nodes are associative, i.e., they contain a key and value pair.
+# A simple Binary Search Tree implemented in python. Constituent nodes are associative, i.e., 
+# they contain both a key and value pair, the former being usable to reference the latter.
 
 #binary seach tree
 class BST:
